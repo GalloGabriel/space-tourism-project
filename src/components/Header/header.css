@@ -1,0 +1,56 @@
+.logo img{
+  margin: 4% 0 0 5%;
+  width: 12%;
+}
+
+.hamburger{
+  float: right;
+  margin: 7% 7% 0 0;
+  cursor: pointer;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.info span, h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.info h1{
+  letter-spacing: 2px;
+  font-size: 5em;
+  margin-top: 3%;
+}
+
+.info p{
+  color: #D0D6F9;
+  width: 87%;
+  text-align: center;
+}
+
+.circle{
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 7%;
+  left: 33%;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
