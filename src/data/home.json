@@ -5,19 +5,19 @@
     "text": "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!"
   },
   {
-    "id": "01",
+    "id": "00",
     "section": "Home"
   },
   {
-    "id": "02",
+    "id": "01",
     "section": "Destination"
   },
   {
-    "id": "03",
+    "id": "02",
     "section": "Crew"
   },
   {
-    "id": "04",
+    "id": "03",
     "section": "Technology"
   }
 ]

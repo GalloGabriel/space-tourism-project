@@ -41,7 +41,7 @@
   background-color: #fff;
   position: absolute;
   bottom: 7%;
-  left: 33%;
+  left: 30%;
   border-radius: 50%;
   border: 1px solid black;
   display: flex;
@@ -53,4 +53,43 @@
 .circle span{
   font-size: 1.3em;
   text-transform: uppercase;
+}
+
+.menu{
+  background-color: rgba(18, 17, 17, .96);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100vh;
+  z-index: 10;
+  display: none;
+}
+
+.menu img{
+  float: right;
+  margin: 10% 11% 0 0;
+  cursor: pointer;
+}
+
+.menu ul{
+  position: relative;
+  top: 12%;
+}
+
+.menu li{
+  color: #fff;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.menu span{
+  display: block;
+  font-weight: bold;
+  color: #D0D6F9;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 10%;
 }
