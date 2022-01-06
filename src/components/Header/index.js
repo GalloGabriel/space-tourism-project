@@ -1,5 +1,6 @@
 import homeData from '../../data/home.json';
 import './header.css';
+import { Link } from 'react-router-dom';
 
 export default function Header(){
 
@@ -33,7 +34,11 @@ export default function Header(){
           <ul>
             {homeData.map((dado, index)=>{
               return(
-                <span key={index}>{dado.id} <li>{dado.section}</li></span>
+                <span key={index}>{dado.id}
+                  <Link to={ `${dado.link}` }> 
+                    <li>{dado.section}</li>
+                  </Link>
+                </span>
               ) 
               
             })}

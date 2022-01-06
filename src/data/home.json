@@ -6,18 +6,22 @@
   },
   {
     "id": "00",
-    "section": "Home"
+    "section": "Home",
+    "link": "/"
   },
   {
     "id": "01",
-    "section": "Destination"
+    "section": "Destination",
+    "link": "/destination"
   },
   {
     "id": "02",
-    "section": "Crew"
+    "section": "Crew",
+    "link": "/crew"
   },
   {
     "id": "03",
-    "section": "Technology"
+    "section": "Technology",
+    "link": "/technology"
   }
 ]
