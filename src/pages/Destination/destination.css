@@ -6,7 +6,7 @@
   height: 125vh;
 }
 
-.destination h1{
+.destination h1, .crew h1{
   font-size: 1.1em;
   text-align: center;
   margin-top: 10%;
@@ -81,12 +81,12 @@
   font-size: 2em;
 }
 
-#place01{
+#place01, #crew01{
   position: absolute;
   top: 24%;
 }
 
-#place02, #place03, #place04{
+#place02, #place03, #place04, #crew02, #crew03, #crew04{
   position: absolute;
   top: 24%;
   display: none;
