@@ -18,9 +18,12 @@ export default function Home(){
           );
         })}
 
+        <div className="container-circle">
         <div className="circle">
           <span>Explore</span>
-        </div>    
+        </div>   
+        </div>
+         
     </div>
   );
 }

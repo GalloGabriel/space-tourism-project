@@ -48,3 +48,35 @@
   margin-top: 40px;
   margin-left: 10%;
 }
+
+/* TABLET SIZE LAYOUT */
+
+@media (min-width: 376px) and (max-width: 768px){
+  .logo img{
+    margin: 3% 0 0 5%;
+    width: 7%;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 55%;
+  }
+
+  .menu li{
+    margin-left: 1%;
+  }
+
+  .menu span{
+    font-size: .75em;
+    display: inline;
+    margin-left: 4%;
+    position: relative;
+    top: 35%;
+  }
+
+  .toggle{
+    display: none;
+  }
+}

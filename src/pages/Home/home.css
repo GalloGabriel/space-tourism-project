@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: 375px 620px;
   width: 100%;
-  height: 100vh;
+  height: 105vh;
 }
 
 .info{
@@ -20,6 +20,10 @@
   font-weight: lighter;
 }
 
+.info span{
+  color: #D0D6F9;
+}
+
 .info h1{
   letter-spacing: 2px;
   font-size: 5em;
@@ -32,13 +36,19 @@
   text-align: center;
 }
 
+.container-circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 30%;
+}
+
 .circle{
   width: 140px;
   height: 140px;
   background-color: #fff;
-  position: relative;
-  bottom: 35%;
-  left: 30%;
   border-radius: 50%;
   border: 1px solid black;
   display: flex;
@@ -52,10 +62,40 @@
   text-transform: uppercase;
 }
 
+
+/* TABLET SIZE LAYOUT */
+
 @media (min-width: 376px) and (max-width: 768px){
   .bg-home{
     background-image: url("../../../public/assets/home/background-home-tablet.jpg");
     background-size: 768px 690px;
+  }
+
+  .info{
+    margin-top: 10%;
+  }
+
+  .info h1{
+    font-size: 7em;
+    margin-top: 1%;
+  }
+
+  .info p{
+    width: 50%;
+  }
+
+  .circle{
+    width: 180px;
+    height: 180px;
+  }
+
+  .circle span{
+    font-size: 1.7em;
+  }
+
+  .container-circle{
+    position: relative;
+    bottom: 35%;
   }
 }
 
