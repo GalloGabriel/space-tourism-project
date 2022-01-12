@@ -65,9 +65,20 @@
   margin-top: 5%;
 }
 
+.distance-travel-info{
+  margin-top: 5%;
+}
+
 .distance-title, .distance, .travel-title, .travel{
   color: #fff;
   text-transform: uppercase;
+}
+
+.distance-container, .travel-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .distance-title, .travel-title{
@@ -96,6 +107,47 @@
   .bg-destination{
     background-image: url("../../../public/assets/destination/background-destination-tablet.jpg");
     background-size: 768px 690px;
+    height: 120vh;
+  }
+
+  .destination h1, .crew h1, .tech h1{
+    text-align: left;
+    font-size: 1.05em;
+    margin-top: 5%;
+    margin-left: 4%;
+  }
+
+  .destination-info{
+    margin-top: 0;
+  }
+
+  .destination-info img{
+    width: 33%;
+  }
+
+  .switch-place{
+    margin-bottom: 4%;
+    margin-top: 4%;
+  }
+
+  .destination-info p{
+    width: 75%;
+  }
+
+  .distance-travel-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+  }
+
+  .distance-container{
+    position: relative;
+    right: 10%;
+  }
+
+  .travel-container{
+    position: relative;
+    left: 10%;
   }
 }
 

@@ -74,10 +74,16 @@ export default function Destination(){
             <span className="destination-name">{data.name}</span>
             <p>{data.description}</p>
             <hr/>
-            <span className="distance-title">Avg. distance</span>
-            <span className="distance">{data.distance}</span>
-            <span className="travel-title">Est. Travel Time</span>
-            <span className="travel">{data.travel}</span>
+            <div className="distance-travel-info">
+              <div className="distance-container">
+                <span className="distance-title">Avg. distance</span>
+                <span className="distance">{data.distance}</span>
+              </div>
+              <div className="travel-container">
+                <span className="travel-title">Est. Travel Time</span>
+                <span className="travel">{data.travel}</span>
+              </div>
+            </div>
           </div>
         );
       })}
