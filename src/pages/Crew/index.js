@@ -63,7 +63,7 @@ export default function Crew(){
 
       {crewData.map((data)=>{
         return(
-          <div key={data.id} className="destination-info" id={`crew${data.id}`}>
+          <div key={data.id} className="destination-info crew-info" id={`crew${data.id}`}>
             <img src={data.png} alt={`Imagem do destino: ${data.name}`}/>
             <hr id="crew-hr"/>
             <div className="switch-crew">
@@ -72,9 +72,11 @@ export default function Crew(){
               <span className="circle-crew" id="span-crew03" onClick={showPilot}></span>
               <span className="circle-crew" id="span-crew04" onClick={showEngineer}></span>
             </div>
-            <span className="crew-role">{data.role}</span>
-            <span className="crew-name">{data.name}</span>
-            <p>{data.bio}</p>
+            <div className="crew-infos-container">
+              <span className="crew-role">{data.role}</span>
+              <span className="crew-name">{data.name}</span>
+              <p>{data.bio}</p>
+            </div>
           </div>
         );
       })}
